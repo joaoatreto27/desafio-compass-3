@@ -6,13 +6,14 @@
   - [Links](#links)
 - [Processo](#processo)
   - [Construido com](#construido-com)
-- [Validações](#validações)
+- [Login](#login)
 
 ## Visão Geral
 
 ### Desafio
 
 Desenvolver uma tela de login, para acessar uma página "Home" com uma API de clima, pegando o clima e horário do local onde o usuário se encontra.<br/>
+A página "Home" além da API de clima, também possue um timer que começa em 600 e vai decrescendo, e quando chega a 0 realoca o usuário para a página de usuário, também há um botão para o usuário deslogar e voltar a página de login e outro botão que reseta o time, fazendo-o voltar a 600.
 
 ### Screenshot
 <div align="center">
@@ -23,8 +24,8 @@ Desenvolver uma tela de login, para acessar uma página "Home" com uma API de cl
 
 ### Links
 
-- Solução: [Repositório GitHub](https://github.com/joaoatreto27/desafio_compass_2)
-- Site: <a href="https://desafio-compass-vue.netlify.app/#/" target="_blank">Deploy</a>
+- Solução: [Repositório GitHub](https://github.com/joaoatreto27/desafio-compass-3)
+- Site: [Deploy](https://desafio-compass-3.netlify.app/#/login)
 
 ### Construido com
 
@@ -33,15 +34,13 @@ Desenvolver uma tela de login, para acessar uma página "Home" com uma API de cl
 - Flexbox
 - Vue.JS
 - Sass
+- APIWeather
 
 
-### Validações
+### Login
 
-- Full Name: Primeira letar maiúscula, no mínimo duas letras em cada palavra e no mínimo um espaço entre duas palavras;
-- Email: Pelo menos duas letras antes e depois de um @ e duas letras depois de um ponto(.);
-- Phone: Exatamente 11 caracteres;
-- Password: Entre 6 e 9 caracteres;
-- Birthday: Selecionar uma data;
+- Usuário: admin.admin
+- Senha: 123456789
 
 ## Project setup
 ```
