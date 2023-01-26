@@ -1,0 +1,53 @@
+.divLogin {
+    background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+    .sectionForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 50%;
+
+    }
+
+    .sectionImg {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+        width: 50%;
+    }
+
+    .logoContainer{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .imgLogo {
+            width: 30%;
+        }
+    }
+    .bannerContainer{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .imgBanner{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .hide {
+        display: none !important;
+    }
+}

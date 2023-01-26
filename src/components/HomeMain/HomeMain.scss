@@ -1,0 +1,52 @@
+.secTexts {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.ballImage{
+    width: 25vw;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 10vh;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    text-align: right;
+    line-height: 1.2;
+    margin-right: 5em;
+    justify-content: center;
+    .textPT{
+        color: #222222;
+        font-size: 1.30em;
+        font-weight: 700;
+    }
+    
+    .textEN{
+       
+        color: #C12D18;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .first {
+        color: #C12D18;
+        font-size: 2em;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 700px) {
+    .secTexts {
+        display: none;
+    }
+
+    .ballImage {
+        width: 90vw !important;
+        left: -20px;
+    }
+
+}
